@@ -1,3 +1,11 @@
+variable "aws_access_key_id" {
+  type    = string
+}
+
+variable "aws_secret_access_key" {
+  type    = string
+}
+
 variable "prefix" {
   type        = string
   description = "(Required) This prefix will be included in the name of most resources."
